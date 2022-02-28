@@ -1,0 +1,144 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  text-decoration: none;
+  list-style: none;
+  overflow-x: hidden;
+}
+
+.h-s-1 {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.87)), to(rgba(27, 27, 27, 0.925))), url(../img/bg.jpg);
+  background: linear-gradient(rgba(0, 0, 0, 0.87), rgba(27, 27, 27, 0.925)), url(../img/bg.jpg);
+  background-position: center;
+  background-size: cover;
+  color: #ffff;
+  padding: 3rem 0;
+}
+
+.h-s-1 h1 {
+  margin-bottom: 1rem;
+  color: #f39a0b;
+}
+
+.h-alt-menu {
+  padding: 1rem 0;
+  background-color: #313131;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.h-s-1-alt-menu ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 5rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  list-style: none;
+  margin-bottom: none !important;
+}
+
+.h-s-1-alt-menu ul li a {
+  font-size: 20px;
+  text-decoration: none;
+  color: #8a8a8a;
+  font-weight: 300;
+  -webkit-transition: .5s ease;
+  transition: .5s ease;
+  padding: 0 .2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.h-s-1-alt-menu ul li a:hover {
+  color: #ffff;
+  -webkit-transform: translateY(-5px);
+          transform: translateY(-5px);
+}
+
+dl, ol, ul {
+  margin: 0;
+}
+
+.kurumsal {
+  padding: 2rem 0;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+
+.kurumsal h1 {
+  color: #f39a0b;
+  text-align: center;
+}
+
+.kurumsal p {
+  margin-bottom: 3rem;
+  display: inline-block;
+}
+
+.kurumsal a {
+  text-decoration: none;
+  color: white;
+  background-color: #f39a0b;
+  padding: 1rem 2rem;
+}
+
+.kurumsal .kurumsal-img-wrapper {
+  background-color: #ffff;
+  -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.116);
+          box-shadow: 0 0 20px rgba(0, 0, 0, 0.116);
+  padding: 2rem 4rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border-radius: 20px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 5rem;
+  display: inline-block;
+}
+
+.empty-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.kurumsal-ico {
+  display: inline;
+  margin-right: 5px;
+}
+
+.empty-wrapper-2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+}
+
+.m-b-3rem {
+  margin-bottom: 4rem;
+}
+/*# sourceMappingURL=style.css.map */

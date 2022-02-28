@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+
+$main-color: #f39a0b;
+$white: #ffff;
+$dark-color: rgb(49, 49, 49);
+$grey: rgb(138, 138, 138);
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    list-style: none;
+    overflow-x: hidden;
+}
+
+.h-s-1 {
+    background: linear-gradient(rgba(0, 0, 0, 0.87),rgba(27, 27, 27, 0.925)), url(../img/bg.jpg);
+    background-position: center;
+    background-size: cover;
+    color: $white;
+    padding: 3rem 0;
+
+    h1 {
+        margin-bottom: 1rem;
+        color: $main-color;
+        
+    }
+
+   
+    
+}
+
+.h-alt-menu {
+    padding: 1rem 0;
+    background-color: $dark-color;
+    display: flex;
+    align-items: center;
+}
+
+.h-s-1-alt-menu {
+    
+    ul {
+        display: flex;
+        gap: 5rem;
+        align-items: center;
+        list-style: none;
+        margin-bottom: none!important;
+        
+        li a{
+            font-size: 20px;
+            text-decoration: none;
+            color: $grey;
+            font-weight: 300;
+            transition: .5s ease;
+            padding: 0 .2rem;
+            display: flex;
+            
+            
+            &:hover {
+                color: $white;
+                transform: translateY(-5px);
+            }
+        }
+    }
+}
+
+
+dl, ol, ul {
+    margin: 0;
+}
+
+
+.kurumsal {
+    padding: 2rem 0;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    
+    h1 {
+        color: $main-color;
+        text-align: center;
+              
+    }
+    p {
+        margin-bottom: 3rem;
+        display: inline-block;
+    }
+
+
+    a {
+        text-decoration: none;
+        color: white;
+        background-color: #f39a0b;
+        padding:1rem 2rem;
+    }
+
+    .kurumsal-img-wrapper {
+        background-color: $white;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.116);
+        padding: 2rem 4rem;
+        display: flex;
+        border-radius: 20px;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 5rem; 
+        display: inline-block;
+    }
+}
+
+
+.empty-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.kurumsal-ico {
+    display: inline;
+    margin-right: 5px;
+}
+
+
+.empty-wrapper-2 {
+    display: flex;
+    justify-content: end;
+}
+
+.m-b-3rem {
+    margin-bottom: 4rem;
+}
